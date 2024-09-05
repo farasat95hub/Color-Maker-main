@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Maker</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
+</head>
+<body>
+<!-- Color Screen -->
+<div id="scn" class="container-fluid border"></div>
+
+<!-- Button's container -->
+<div class="container border  buttons d-flex flex-column">
+    <!-- Red Button Range -->
+    <label for="red" class="lR" id="rN">Red [ ]</label>
+    <input type="range" class="btn" id="red" min="0" max="255" number="255" value="0" onchange="mainFunction()" oninput="mainFunction();"><br>
+    
+    <!-- Green Button Range -->
+    <label for="green" class="lG" id="gN">Green [ ]</label>
+    <input type="range" class="btn" id="green" min="0" max="255" number="255" value="0" onchange="mainFunction()" oninput="mainFunction();"><br>
+    
+    <!-- Blue Button Range -->
+    <label for="blue" class="lB" id="bN">Blue [ ]</label>
+    <input type="range" class="btn" id="blue" min="0" max="255" number="255" value="0" onchange="mainFunction()" oninput="mainFunction();">
+</div>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>

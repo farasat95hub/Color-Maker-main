@@ -1,0 +1,28 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+.container-fluid {
+    height: 40vh;
+}
+
+#scn {
+    background-color:black;
+}
+
+label {
+    font-weight: bolder;
+}
+
+.lR {
+    color:red;
+}
+
+.lG {
+    color:green;
+}
+
+.lB {
+    color:blue;
+}
